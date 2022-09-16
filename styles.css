@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Media for a PC */
+@media (min-width: 576px) {
+    .main-container {
+        border: 2px solid green;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main {
+        /* height: 100%; */
+        flex: 1;
+        background-color: wheat;
+    }
+    
+    footer {
+        height: 180px;
+        background-color: plum;
+    }
+
+}
+
+/* Media for a Phone */
+@media (max-width: 576px) {
+    
+}

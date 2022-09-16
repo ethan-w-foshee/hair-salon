@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Media for a PC */
+@media (min-width: 576px) {    
+    header {
+        height: auto;
+        background-color: black;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+    
+    header .logo img{
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        width: 340px;
+    }
+
+    header ul {
+        margin: 0;
+        padding: 56px 0 0;
+    }
+
+    header ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 0;
+        padding: 0 19px;
+    }
+
+    ul li a, ul li a:visited {
+        color: purple;
+        text-decoration: none;
+    }
+
+    ul li a:hover, ul li.selected a {
+        color: red;
+    }
+}
+
+/* Media for a Phone */
+@media (max-width: 576px) {
+    
+}
