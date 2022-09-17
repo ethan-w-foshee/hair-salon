@@ -43,5 +43,74 @@
 
 /* Media for a Phone */
 @media (max-width: 576px) {
+    header {
+        height: auto;
+        background-color: maroon;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Arial Black", Gadget, sans-serif;
+        padding: 20px 0;
+        position: relative;
+        width: 100%;
+    }
     
+    header .logo {
+        width: 80%;
+    }
+    
+    header .logo img{
+        display: flex;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+    }
+
+    header ul {
+        width: fit-content;
+        margin: auto;
+        z-index: 1001;
+        display: none;
+    }
+
+    #mobile-nav{
+        background: url(../test.jpg) no-repeat 0 0;
+        display: block;
+        height: 50px;
+        margin: 30px auto 0;
+        padding: 0;
+        width: 50px;
+    }
+
+    header ul li span {
+        background: rgba(11, 163, 156, 0.9) url(../test.jpg) no-repeat 0 0;
+        border-left: 1px solid #fff;
+        display: block;
+        height: 49px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+    }
+
+    nav {
+        position: absolute;
+        width: 100%;
+    }
+
+    header ul li {
+        display: block;
+        list-style: none;
+        padding: 1.5ch 6.8ch;
+        border: 1px blue solid;
+        background-color: aliceblue;
+    }
+
+    ul li a, ul li a:visited {
+        color: purple;
+        text-decoration: none;
+    }
+
+    ul li a:hover, ul li.selected a {
+        color: red;
+    }
 }
